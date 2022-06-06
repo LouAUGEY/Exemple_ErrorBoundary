@@ -1,2 +1,4 @@
-# Exemple_ErrorBoundary
-Projet React.js pour illustrer le fonctionnement des ErrorBoundary
+
+### Lancement de l'application
+
+  npm start

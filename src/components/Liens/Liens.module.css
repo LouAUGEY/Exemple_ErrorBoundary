@@ -1,0 +1,29 @@
+.liens {
+    width: 38% !important; 
+    margin: 10px;
+}
+
+.element {
+    padding-top: 65px;
+    background-color: rgb(54, 145, 35);
+    height: 165px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.bleu {
+    background-color: rgb(38, 146, 173);
+}
+.vert {
+    background-color: rgb(20, 116, 1);
+}
+.gris {
+    background-color: rgb(73, 73, 73);
+}
+
+
+
