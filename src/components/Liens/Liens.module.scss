@@ -13,6 +13,13 @@
     text-decoration: none;
     color: white;
     font-size: large;
+    transition: all 0.2s;
+
+    &:hover, &:active {
+        font-size: larger;
+        font-weight: bold;
+        color: white;
+    }
 }
 
 .bleu {

@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import styles from './Liens.module.css'
+import styles from './Liens.module.scss'
 
 const Liens = (props) => {
 

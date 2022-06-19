@@ -1,5 +1,5 @@
 import Table  from "react-bootstrap/Table";
-import styles from "./Tableau.module.css"
+import styles from "./Tableau.module.scss"
 
 const Tableau = (props) => {
 
@@ -27,6 +27,11 @@ const Tableau = (props) => {
                     <td>Liens</td>
                     <td>Composant affichant un carousel avec une liste de liens utiles </td>
                     <td>Fonction-based</td>
+                </tr>
+                <tr>
+                    <td>ErrorBoundary</td>
+                    <td>Composant permettant d'intercepter les erreurs javascripts </td>
+                    <td>Class-based</td>
                 </tr>
             </tbody>
         </Table>
