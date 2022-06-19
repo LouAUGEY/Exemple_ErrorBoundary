@@ -1,19 +1,26 @@
-import React from "react";
 import Header from "./components/Header/Header";
 import Liens from "./components/Liens/Liens";
 import Tableau from "./components/Tableau/Tableau";
+import ErrorBoundaryCustom from "./components/ErrorBoundary/ErrorBoundaryCustom"
 
 const App = (props) => {
 
   return (
-    <div>
+    <ErrorBoundaryCustom composant="App">
       <Header />
 
-    <div className="main">
-        <Tableau />
-        <Liens />
-    </div>
-    </div>
+      <div className="main">
+
+        <ErrorBoundaryCustom composant="Tableau">
+            <Tableau />
+        </ErrorBoundaryCustom>
+
+        <ErrorBoundaryCustom composant="Liens">
+            <Liens /> 
+        </ErrorBoundaryCustom>
+        
+      </div>
+    </ErrorBoundaryCustom>
   )
 }
 

@@ -3,6 +3,12 @@ import styles from "./Tableau.module.scss"
 
 const Tableau = (props) => {
 
+    /* let variableError = null;
+    if(variableError.length > 0) {
+      // quelque chose
+    } */
+  
+
     return(
         <Table striped bordered className={styles.tableau}>
             <thead>
