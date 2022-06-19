@@ -5,7 +5,7 @@ const Tableau = (props) => {
 
     /* let variableError = null;
     if(variableError.length > 0) {
-      // quelque chose
+      // quelque chose qui provoque une erreur
     } */
   
 

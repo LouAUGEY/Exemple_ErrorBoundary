@@ -2,6 +2,11 @@ import styles from './Header.module.scss'
 
 const Header = (props) => {
 
+    /* let variableError = null;
+    if(variableError.length > 0) {
+      // quelque chose qui provoque une erreur
+    } */
+
     return (
         <div className={styles.header_exemple}>
             <h1>Error Boundaries</h1>

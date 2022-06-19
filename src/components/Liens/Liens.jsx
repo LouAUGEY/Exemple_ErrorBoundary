@@ -3,6 +3,11 @@ import styles from './Liens.module.scss'
 
 const Liens = (props) => {
 
+    /* let variableError = null;
+    if(variableError.length > 0) {
+      // quelque chose qui provoque une erreur
+    } */
+
     return(
         <Carousel controls className={styles.liens}>
             <Carousel.Item interval={1500}>

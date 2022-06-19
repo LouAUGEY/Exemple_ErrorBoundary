@@ -2,6 +2,9 @@ import React from "react";
 import { Alert, Badge } from "react-bootstrap";
 import styles from "./ErrorBoundaryCustom.module.scss"
 
+// Le composant de périmètre d'erreur doit nécessairement être de type class-component pour pouvoir utiliser les méthodes
+// getDerivedStateFromError et/ou componentDidCatch 
+
 class ErrorBoundaryCustom extends React.Component {
     constructor(props) {
       super(props);
