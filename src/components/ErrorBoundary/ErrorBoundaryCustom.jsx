@@ -13,6 +13,7 @@ class ErrorBoundaryCustom extends React.Component {
   
     static getDerivedStateFromError(error) {
       // Mettez à jour l'état, de façon à montrer l'UI de repli au prochain rendu.
+      console.log('getDerived')
       return { hasError: true };
     }
   
